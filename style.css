@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:200,400,600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: hsl(0, 0%, 98%);
+    max-width: 80vw;
+    height: 90vh;
+    margin: 50px auto;
+    overflow: hidden;
+    box-shadow: 3px 1px 17px #e1e1e1;
+}
+
+header {
+    max-width: 450px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 2em 0;
+}
+
+h1 {
+    font-weight: 200;
+    margin: 0;
+}
+
+h1 span {
+    font-weight: 600;
+}
+
+p {
+    font-size: 15px;
+    margin-top: 1em;
+    color: hsl(229, 6%, 66%);
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: #fff;
+    width: 330px;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px #e1e1e1;
+    border-top: 4px solid blue;
+}
+
+.box h3 {
+    margin: 0;
+}
+
+.box img {
+    display: block; 
+    margin-left: auto;
+    margin-top: 2em;
+    width: 17%;
+}
+
+.left {
+    border-top-color: hsl(180, 62%, 55%);
+}
+
+.top {
+    border-top-color: hsl(0, 78%, 62%);
+}
+
+.bottom {
+    border-top-color: hsl(34, 97%, 64%);
+}
+
+.right {
+    border-top-color:hsl(212, 86%, 64%)
+}
+
+.spacer {
+    transform: translateY(50%);
+}
+
+footer {
+    display: none;
+}
+
+@media (max-width: 1357px) {
+    body {
+        box-shadow: none;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .box {
+        width: 370px;
+    }
+}
+@media (max-width: 900px) {
+
+    body {
+        margin: 0;
+        max-width: 100vw;
+        border: none;
+        overflow: scroll;
+        box-shadow: none;
+    }
+    .spacer {
+        transform: translateY(0);
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    header {
+        margin: 0 1em;
+    }
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 300px) {
+    h1 {
+        font-size: 20px;
+    }
+}
