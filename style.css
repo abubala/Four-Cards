@@ -98,13 +98,11 @@ footer {
     body {
         box-shadow: none;
         height: 100vh;
+        overflow: scroll;
     }
 }
 
 @media (max-width: 1024px) {
-    body {
-        overflow: scroll;
-    }
     
     .box {
         width: 370px;
