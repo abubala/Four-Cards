@@ -105,6 +105,10 @@ footer {
     .box {
         width: 370px;
     }
+
+    .spacer {
+        transform: translateY(0);
+    }
 }
 @media (max-width: 900px) {
 
